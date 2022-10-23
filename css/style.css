@@ -10,7 +10,11 @@
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
 }
-
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 .wrapper{
   position: relative;
   width:100%;
