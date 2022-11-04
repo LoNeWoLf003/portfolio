@@ -368,9 +368,22 @@ header.shadow {
   font-size: var(--medium-font);
   font-weight: 500;
 }
-.home-text h1 {
+/* -Anirban: Added text animation to .home-text h1 */
+.home-text h1 { 
   font-size: var(--big-font);
+  background: linear-gradient(135deg, #5335cf 0%, #540081 25%, #de005dbf 75%, #5335cf 100%);
+  background-size: 400%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: animate 10s linear infinite;
 }
+@keyframes animate {
+  to{
+    background-position: 400%;
+  }
+}
+
 .home-text h2 {
   font-size: 1.1rem;
   font-weight: 400;
