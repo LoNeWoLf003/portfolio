@@ -371,7 +371,7 @@ header.shadow {
 /* -Anirban: Added text animation to .home-text h1 */
 .home-text h1 { 
   font-size: var(--big-font);
-  background: linear-gradient(135deg, #5335cf 0%, #540081 25%, #de005dbf 75%, #5335cf 100%);
+  background: linear-gradient(135deg, #5335cf 0%, #ad007f 50%, #5335cf 100%);
   background-size: 400%;
   background-clip: border-box;
   -webkit-background-clip: text;
