@@ -764,3 +764,38 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+
+
+
+
+h2 {
+  block-size: 100%;
+  inline-size: 100%;
+  position: relative;
+  font-size: 5rem;
+  color: var(--text-color);
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+}
+
+/*ok actual effect*/
+h2::before {
+  z-index: -1;
+  background: rgb(40, 115, 227);
+  display: block;
+  inset: 0 0 0 0;
+  position: absolute;
+  content: "";
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .2s ease-in-out;
+}
+h2:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
