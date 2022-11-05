@@ -283,6 +283,7 @@ section {
 body.active {
   --text-color: rgb(255, 255, 255);
   --bg-color: #0f0c27;
+  
 }
 body {
   background: var(--bg-color);
@@ -291,7 +292,10 @@ body {
 *::selection {
   color: var(--bg-color);
   background: var(--main-color);
+  
 }
+
+
 .heading {
   text-align: center;
 }
@@ -371,7 +375,7 @@ header.shadow {
 /* -Anirban: Added text animation to .home-text h1 */
 .home-text h1 { 
   font-size: var(--big-font);
-  background: linear-gradient(135deg, #5335cf 0%, #ad007f 50%, #5335cf 100%);
+  background: linear-gradient(135deg, #0f95d8 0%, #0ea7cd 25%, #05deff 75%, #0084f7);
   background-size: 400%;
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -415,7 +419,6 @@ header.shadow {
 .btn:hover {
   background: var(--hover);
 }
- 
 
 .about-container {
   display: grid;
@@ -633,6 +636,9 @@ form textarea {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+.home-text h1{
+  text
 }
 .copyright {
   padding: 20px;
