@@ -783,7 +783,22 @@ h2 {
   place-content: center;
 }
 
-h3 {
+/*h3 {
+  block-size: 100%;
+  inline-size: 100%;
+  position: relative;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+}*/
+
+h7 {
   block-size: 100%;
   inline-size: 100%;
   position: relative;
@@ -797,6 +812,7 @@ h3 {
   place-content: center;
   padding: 1rem;
 }
+
 
 .wrapper2 {
   width: 100%;
