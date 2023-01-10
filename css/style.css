@@ -123,7 +123,7 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 .card h1{
   color: #ffffff;
-  margin: 0px;
+  margin: 10px;
 }
 .card p{
   line-height: 24px;
